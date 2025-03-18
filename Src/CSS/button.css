@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: arial,san-serif;
+    text-align: center;
+    background-color: rgb(237, 237, 237);
+}
+
+.button-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+button{
+    padding: 10px 40px;
+    border: none;
+    font-size: 16px;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+/*button 1: background change*/
+.btn1{
+    background-color: rgb(25, 207, 152);
+    color: white;
+}
+.btn1:hover {
+    background-color: #d027bc;
+
+}
+/*button 2: border change*/
+.btn2{
+    border: 2px solid rgb(231, 210, 74);
+    color: rgb(231, 210, 74);
+    background: white;
+}
+.btn2:hover {
+    background-color: rgb(242, 204, 147);
+    color: white;
+}
+/*button 3: background change*/
+.btn3{
+    background-color: rgb(253, 125, 102);
+    color: black;
+}
+.btn3:hover {
+    background-color: seagreen;
+    color: bisque;
+}
+/*button 4: scale effect*/
+.btn4 {
+    background-color: rgb(173, 40, 173);
+    color: white;
+}
+.btn4:hover {
+    transform: scale(1.1);
+}
+/*button 5: rotate effect*/
+.btn5 {
+    background-color: grey;
+    color: white;
+}
+.btn5:hover {
+    transform: rotate(6deg);
+}
+/*button 6: text color change*/
+.btn6 {
+    background-color: rgb(45, 165, 153);
+    color: rgb(221, 239, 107);
+}
+.btn6:hover {
+    color: black;
+}
+/*button 7: border frow*/
+.btn7 {
+    background-color: white;
+    color: rgb(43, 43, 208);
+}
+.btn7:hover{
+    border-style: dotted;
+    border-width: 3px;
+}
+/*button 8: gradient background*/
+.btn8 {
+    background: linear-gradient(45deg,#a5e622, #0fdaf1);
+    color: white;
+}
+.btn8:hover{
+    background: linear-gradient(45deg, #0fdaf1, #a5e622);
+}
+/*button 9: shadow effect*/
+.btn9 {
+    background-color: #2ecc71;
+    color: white;
+}
+.btn9:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+/*button 10: shadow effect*/
+.btn10 {background-color: #2ec7cc;
+    color: white;
+}
+.btn10:hover {
+    box-shadow: 0 5px 10px rgba(78, 76, 76, 0.3);
+}
+

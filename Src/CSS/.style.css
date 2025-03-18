@@ -1,0 +1,35 @@
+.Image_one{
+    width: 47;
+    heigth: auto:
+    position: absolute;
+    left:30%
+    bottom:23%;
+    z-index:1;
+    /* backgroung-position: center */
+}
+
+.image_six img{
+    width: 70%;
+    height: auto;
+    position: absolute;
+    left:18%;
+    bottom:4%;
+    z-index:0;
+    /* backgroung-position: center */
+}
+
+.Image_one img:hover{
+    width: 47%;
+    height: auto;
+    positiom: absolute;
+    left:30%;
+    bottom:23%;
+    z-index:0;
+     /* backgroung-position: center */
+}
+
+.image_two{
+    width:50%;
+    height: auto;
+    z-index:1;
+}

@@ -1,0 +1,735 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Matemasie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Instrument Sans", serif;
+    list-style: none;
+    text-decoration: none;
+    scrollbar-width: none;
+  }
+:root {
+  --fs-24:24px;
+  --fs-16:16px;
+  --fs-36:36px;
+  --fs-20:20px;
+  --fs-15:15px;
+  --fs-30:30px;
+  --primary-color:#143B4D;
+  --secondary-color: #E4E5DE;
+  --tertiary-color:#2D2D2D;
+}
+
+/* bluelight-css */
+#container-7{
+width: 100%;
+height: 90vh;
+/* background-color: #d34242; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 30px;
+}
+
+#container-7 .bluelight{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  gap: 10px;
+  /* background-color: aqua; */
+  
+}
+#container-7 .heading {
+  width: 40%;
+  height: 10%;
+  /* background-color: rgb(21, 65, 65); */
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+#container-7 .heading h2{
+ font-size: 36px;
+}
+
+
+.bluelight .content-wrapper{
+  width: 45%;
+  height: 90%;
+  background-color:var(--secondary-color);
+  align-items: center;
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+  gap: 10px;
+}
+
+.bluelight .image{
+  /* background-color: #d34242; */
+  width: 40%;
+  height: 70%;
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+.bluelight .content-wrapper .first-point {
+   /* background-color: rgb(165, 118, 57); */
+   width: 80%;
+   height: 25%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 15px;
+}
+.bluelight  .content-wrapper .second-point {
+  /* background-color: rgb(165, 118, 57); */
+  width: 80%;
+  height: 30%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 15px;
+  
+}
+.bluelight .content-wrapper .third-point {
+  /* background-color: rgb(165, 118, 57); */
+  width: 80%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.bluelight  .content-wrapper .first-point h3{
+font-size: 22px;
+}
+.bluelight .content-wrapper .second-point h3{
+  font-size: 22px;
+}
+.bluelight  .content-wrapper .third-point h3{
+  font-size: 22px;
+}
+
+
+.bluelight  .content-wrapper .first-point p{
+font-size: 17px;
+}
+.bluelight .content-wrapper .second-point p{
+  font-size: 17px;
+}
+.bluelight  .content-wrapper .third-point p{
+  font-size: 17px;
+}
+
+
+
+/* setting-css */
+
+#BlueLight-container{
+  width: 100%;
+  height: 90vh;
+  /* background-color: #8c5c41; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#BlueLight-container .BlueLight-wrapper{
+  width: 100%;
+  height: 100%;
+  /* background-color: #889d1f; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#BlueLight-container .BlueLight-wrapper .section-1 {
+  width: 30%;
+  height: 50%;
+  /* background-color: #c9db65; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+#BlueLight-container .BlueLight-wrapper .section-2{
+  width: 30%;
+  height: 50%;
+  /* background-color: #c9db65; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+#BlueLight-container .BlueLight-wrapper .section-3{
+  width: 30%;
+  height: 50%;
+  /* background-color: #c9db65; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+#BlueLight-container .BlueLight-wrapper .section-1 img{
+  width: 40%;
+  height: 50%;
+  /* background-color: #87d8d8; */
+
+}
+#BlueLight-container .BlueLight-wrapper .section-2 img{
+  width: 40%;
+  height: 50%;
+  /* background-color: #87d8d8; */
+ 
+}
+#BlueLight-container .BlueLight-wrapper .section-3 img{
+  width: 40%;
+  height: 50%;
+  /* background-color: #87d8d8; */
+}
+
+#BlueLight-container .BlueLight-wrapper .section-1  h3{
+  /* margin-bottom: 10px; */
+  text-align: center;
+}
+#BlueLight-container .BlueLight-wrapper .section-2  h3{
+  /* margin-bottom: 10px; */
+  text-align: center;
+}
+#BlueLight-container .BlueLight-wrapper .section-3 h3{
+  /* margin-bottom: 10px; */
+  text-align: center;
+}
+#BlueLight-container .BlueLight-wrapper .section-1  p{
+  width: 60%;
+  text-align: center;
+
+}
+#BlueLight-container .BlueLight-wrapper .section-2  p{
+  width: 60%;
+  text-align: center;
+
+}
+#BlueLight-container .BlueLight-wrapper .section-3  p{
+  width: 60%;
+  text-align: center;
+
+}
+
+
+/* footer-section */
+
+#contact{
+  background-color: #143B4D;
+  width: 100%;
+  height: 80%;
+
+}
+
+#contact  .logo img{
+  /* background-color: #7dbfdd; */
+  width: 20%;
+  height: 100%;
+  margin-left: 80px;
+  margin-top: 30px;
+ }
+
+.contact-info{
+  /* background-color: #8d3030; */
+  width: 100%;
+  height: 80%;
+  display: flex;
+  
+}
+.contact-info .first-info{
+  /* background-color: #d05b5b; */
+  width: 20%;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  margin-left: 100px;
+  color: #F7F7F7;
+} 
+.contact-info .second-info{
+  /* background-color: #d05b5b; */
+  width: 20%;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  color: #F7F7F7;
+} 
+.contact-info .third-info{
+  /* background-color: #d05b5b; */
+  width: 20%;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  color: #F7F7F7;
+} 
+.contact-info .fourth-info{
+  /* background-color: #d05b5b; */
+  width: 20%;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  color: #F7F7F7;
+} 
+
+#contact .contact-info .icons{
+  /* background-color: #afc14c; */
+  height: 50%;
+  margin-top: 150px;
+  margin-left: -90px;
+}
+
+
+.contact-info h4{
+  /* background-color: #d11818; */
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: var(--fs-20);
+}
+
+.contact-info p{
+  font-size: var(--fs-16);
+}
+
+.contact-info h4:hover{
+  color: #d11818;
+}
+
+.contact-info p:hover{
+  color: #d11818;
+}
+
+/*bluelight start*/
+
+
+@media only screen and (max-width:1419px){
+
+  .bluelight img{
+    /* background-color: #d34242; */
+    width: 90%;
+    
+   }
+   
+}
+
+@media only screen and (max-width:1226px){
+ 
+.bluelight .content-wrapper{
+
+  gap: 20px;
+}
+
+.bluelight  .content-wrapper .first-point h3{
+  font-size: 20px;
+  }
+  .bluelight .content-wrapper .second-point h3{
+    font-size: 20px;
+  }
+  .bluelight  .content-wrapper .third-point h3{
+    font-size: 20px;
+  }
+  
+
+  .bluelight  .content-wrapper .first-point p{
+    font-size: 16px;
+    }
+    .bluelight .content-wrapper .second-point p{
+      font-size: 16px;
+    }
+    .bluelight  .content-wrapper .third-point p{
+      font-size: 16px;
+    }
+  
+}
+
+@media only screen and (max-width:1151px){
+
+  .bluelight .image{
+    /* background-color: #d34242; */
+    width: 45%;
+    height: 70%;
+  }
+
+  .bluelight .content-wrapper{
+    width: 40%;
+    height: 80%;
+}
+
+
+.bluelight  .content-wrapper .first-point h3{
+  font-size: 20px;
+  }
+  .bluelight .content-wrapper .second-point h3{
+    font-size: 20px;
+  }
+  .bluelight  .content-wrapper .third-point h3{
+    font-size: 20px;
+  }
+  
+  .bluelight  .content-wrapper .first-point p{
+    font-size: 15px;
+    }
+    .bluelight .content-wrapper .second-point p{
+      font-size: 15px;
+    }
+    .bluelight  .content-wrapper .third-point p{
+      font-size: 15px;
+    }
+
+    .bluelight .content-wrapper{
+    
+      gap: 15px;
+    }
+
+
+    .bluelight .content-wrapper .first-point {
+      width: 90%;
+      gap: 10px;
+   }
+   .bluelight  .content-wrapper .second-point {
+    width: 90%;
+      gap: 10px;
+     
+   }
+   .bluelight .content-wrapper .third-point {
+    width: 90%;
+     gap: 10px;
+   }
+  
+}
+
+
+@media only screen and (max-width:1027px){
+  .bluelight .content-wrapper{
+   
+    width: 45%;
+    height: 70%;
+      }
+      .bluelight .image{
+        /* background-color: #d34242; */
+        width: 50%;
+        height: 70%;
+      }
+
+}
+@media only screen and (max-width:884px){
+#container{
+
+  width: 90%;
+  height: 100%;
+}
+
+}
+@media only screen and (max-width:768px){
+  #container-7{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  #container-7 .bluelight{
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* background-color: #def16f; */
+    margin-top: 10px;
+  }
+  #container-7 .heading h2{
+    font-size: 24px;
+     
+   }
+   .bluelight .image{
+    /* background-color: #d34242; */
+    width: 60%;
+    height: 70%;
+
+  }
+  
+  .bluelight .content-wrapper{
+    text-align: center;
+    width: 55%;
+    height: 70%;
+      }
+
+      .bluelight  .content-wrapper .first-point {
+        margin-top: 30px;
+        }
+      .bluelight  .content-wrapper .second-point {
+        margin-top: 20px;
+        }
+      .bluelight  .content-wrapper .third-point {
+        margin-bottom: 30px;
+        margin-top: 20px;
+        }
+
+      .bluelight  .content-wrapper .first-point h3{
+        font-size: 16px;
+        }
+        .bluelight .content-wrapper .second-point h3{
+          font-size: 16px;
+        }
+        .bluelight  .content-wrapper .third-point h3{
+          font-size: 16px;
+        }
+  }
+ 
+@media only screen and (max-width:531px){
+
+  #container-7 .heading h2{
+    font-size: 22px;
+     
+   }
+   .bluelight .image{
+    /* background-color: #d34242; */
+    width: 70%;
+    height: 80%;
+
+  }
+
+  .bluelight .content-wrapper{
+    text-align: center;
+    width: 65%;
+    height: 80%;
+    }
+
+      .bluelight  .content-wrapper .first-point h3{
+        font-size: 16px;
+        }
+        .bluelight .content-wrapper .second-point h3{
+          font-size: 16px;
+        }
+        .bluelight  .content-wrapper .third-point h3{
+          font-size: 16px;
+        }
+
+}
+
+
+@media only screen and (max-width:486px){
+
+  #container-7 .heading h2{
+    font-size: 20px;
+     
+   }
+   
+
+}
+@media only screen and (max-width:442px){
+  #container-7 .heading {
+    width: 50%;
+    height: 10%;
+   
+  }
+
+
+}
+@media only screen and (max-width:353px){
+  #container-7 .heading {
+    width: 60%;
+    height: 10%;
+   
+  }
+
+}
+
+
+/*setting start*/
+
+@media only screen and (max-width:1076px){
+  #BlueLight-container{
+    margin-top: -100px;
+  }
+}
+@media only screen and (max-width:871px){
+ 
+  #BlueLight-container .BlueLight-wrapper{
+    width: 100%;
+    height: 90%;
+    /* background-color: #889d1f; */  
+  }
+
+  #BlueLight-container .BlueLight-wrapper .section-1 p{
+    width: 90%;
+    height: 50%;
+
+  }
+  #BlueLight-container .BlueLight-wrapper .section-2 p{
+    width: 90%;
+    height: 50%;
+
+  }
+  #BlueLight-container .BlueLight-wrapper .section-3 p{
+    width: 90%;
+    height: 50%;
+
+  }
+
+  #BlueLight-container .BlueLight-wrapper{
+
+    /* background-color: #889d1f; */
+     gap: 10px;
+  
+  }
+  
+}
+
+@media only screen and (max-width:731px){
+
+  #BlueLight-container{
+    width: 100%;
+    height: auto;
+    /* background-color: #8c5c41; */
+    padding: 40px;
+    margin-top: 30px;
+  
+  }
+  #BlueLight-container .BlueLight-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 50px;
+  /* background-color: #889d1f; */
+  
+}
+#BlueLight-container .BlueLight-wrapper .section-1 {
+  width: 30%;
+  height: 40%;
+  /* background-color: #c9db65; */
+  gap: 20px;
+}
+#BlueLight-container .BlueLight-wrapper .section-2{
+  width: 30%;
+  height: 40%;
+  /* background-color: #c9db65; */
+  gap: 20px;
+}
+
+#BlueLight-container .BlueLight-wrapper .section-3{
+  width: 30%;
+  height: 40%;
+  /* background-color: #c9db65; */
+  gap: 20px;
+  
+}
+
+#BlueLight-container .BlueLight-wrapper .section-1{
+  width: 50%;
+  height: 50%;
+
+}
+#BlueLight-container .BlueLight-wrapper .section-2{
+  width: 50%;
+  height: 50%;
+
+}
+#BlueLight-container .BlueLight-wrapper .section-3{
+  width: 50%;
+  height: 50%;
+
+}
+
+}
+
+
+@media only screen and (max-width:641px){
+
+  #BlueLight-container .BlueLight-wrapper .section-1  h3{
+    font-size: 18px;
+  }
+  #BlueLight-container .BlueLight-wrapper .section-2  h3{
+    font-size: 18px;
+  }
+
+  #BlueLight-container .BlueLight-wrapper .section-3  h3{
+    font-size: 18px;
+  }
+  
+  #BlueLight-container .BlueLight-wrapper .section-1{
+    width: 50%;
+    height: 50%;
+
+  }
+  #BlueLight-container .BlueLight-wrapper .section-2{
+    width: 50%;
+    height: 50%;
+
+  }
+  #BlueLight-container .BlueLight-wrapper .section-3{
+    width: 50%;
+    height: 50%;
+
+  }
+
+}
+@media only screen and (max-width:581px){
+
+  #BlueLight-container .BlueLight-wrapper .section-1{
+    width: 50%;
+    height: 50%;
+
+  }
+  #BlueLight-container .BlueLight-wrapper .section-2{
+    width: 50%;
+    height: 50%;
+
+  }
+  #BlueLight-container .BlueLight-wrapper .section-3{
+    width: 50%;
+    height: 50%;
+
+  }
+}
+
+
+@media only screen and (max-width:401px){
+
+  #BlueLight-container .BlueLight-wrapper .section-1{
+    width: 80%;
+    height: 50%;
+
+  }
+  #BlueLight-container .BlueLight-wrapper .section-1 img{
+    width: 65%;
+    height: 50%;
+
+  }
+  #BlueLight-container .BlueLight-wrapper .section-2 img{
+    width: 65%;
+    height: 50%;
+
+  }
+  #BlueLight-container .BlueLight-wrapper .section-3 img{
+    width: 80%;
+    height: 50%;
+
+  }
+  #BlueLight-container .BlueLight-wrapper .section-2{
+    width: 80%;
+    height: 50%;
+
+  }
+  #BlueLight-container .BlueLight-wrapper .section-3{
+    width: 80%;
+    height: 50%;
+
+  }
+}
+

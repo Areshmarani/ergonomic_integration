@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background: url(./HTML/Src/Task/IMAGE/Group\ 47.jpg)
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.content{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.image_one{
+    width: 40%;
+    height: 60vh;
+}
+
+.image_one img{
+    width: 35%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+}
+.image_two{
+    width: 40%;
+    height: 30vh;
+
+}
+.image_two img{
+    width: 40%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.image_one img{
+    width: 47
+}
+
+
+
